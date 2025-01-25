@@ -17,7 +17,7 @@ async def button_controller( update: Update, context: CallbackContext ):
     
     data = update.callback_query.data
     if( data == "Comprar" ):
-        await update.callback_query.message.edit_text("Pronto Disponible", reply_markup=None)
+        await update.callback_query.message.edit_text("≤Pronto Disponible", reply_markup=None)
         return
     
     data = update.callback_query.data
